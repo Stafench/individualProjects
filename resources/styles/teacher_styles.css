@@ -1,0 +1,6 @@
+body{
+    display: grid;
+    /* grid-template-rows: 10vh 95vh; */
+    grid-auto-rows: 10vh 1fr 10vh 1fr 10vh;
+    grid-template-columns: 15% 70% 15%;
+}

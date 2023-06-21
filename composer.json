@@ -1,0 +1,10 @@
+{
+    "name": "vendor/composer",
+    "description": "net",
+    "type": "project",
+    "license": "f",
+    "minimum-stability": "dev",
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    }
+}

@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+}
+.list-group{
+    max-width: 30%;
+    text-align: center;
+    height: 94%;
+    width: 100%;
+}
+.list-group-students{
+    max-width: 100%;
+}
+.modal-body{
+    max-height: 50vh;
+    overflow-y: auto;
+}
+.close-modal{
+    border: none;
+    border-radius: 90px;
+    transition: background-color 0.1s ease;
+}
+.close-modal:hover{
+    background: #b0b0b0;
+}
+.modal-footer{
+    justify-content: space-between;
+    width: 100%;
+}
+.form-check-label{
+    padding-left: 5%;
+}
+.form-check{
+    display: flex;
+    align-items: center;
+}
+.list-group-item{
+    transition: background-color 0.1s ease;
+}
+.list-group-item.active:hover{
+    background: #296ed4;
+}
+.list-group-item.active{
+    border-top: 1px solid #f8f9fa;
+}
+.exit{
+    margin: 5px;
+    height: 4.5vh;
+}
+#searchInput{
+    width: 50%;
+}
+.modal-title{
+    width: 20%;
+}
+.nameGroup, .nameDepartment{
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: center;
+}

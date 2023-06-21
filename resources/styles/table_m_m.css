@@ -1,0 +1,37 @@
+#custom-menu{
+    border: 2px solid #ccc;
+    padding: 5px;
+    max-height: 30vh;
+    overflow: auto;
+    user-select: none;
+}
+#custom-menu li{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    padding: 10px;
+}
+#custom-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0; /* Цвет фона */
+  }
+  
+#custom-menu ul li {
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    border-bottom: none; /* Граница между элементами */
+  }
+  #custom-menu li:hover{
+    cursor: pointer;
+    background-color: #a0a0a0;
+  }
+  
+  #custom-menu ul li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+     /* Удаляем границу для последнего элемента */
+  }
+#custom-menu ul{
+    padding: 0;
+}

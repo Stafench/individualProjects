@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распределение проектов</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../resources/styles/head_of_department_styles.css">
+    <link rel="stylesheet" href="../../resources/styles/teacher_styles.css">
+</head>
+<body>
+  <button type="submit" class="btn btn-outline-danger exit">Выход</button>
+  <input type="text" class="form-control" id="searchInput" placeholder="Найти">
+    <table class="table mainData">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Студент</th>
+            <th scope="col">Дисциплина</th>
+            <th scope="col">Тема</th>
+            <th scope="col">Оценка</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+
+      <table class="table insertRow">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Студент</th>
+            <th scope="col">Дисциплина</th>
+            <th scope="col">Тема</th>
+            <th scope="col">Оценка</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+    <td>1</td>
+    <td>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="studentNew" data-toggle="dropdown" aria-expanded="false">
+          Студент
+        </button>
+        <ul class="dropdown-menu list-students" aria-labelledby="dropdownMenuButton">
+
+        </ul>
+      </div>
+    </td>
+    <td>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="objectNew" data-toggle="dropdown" aria-expanded="false">
+          Дисциплина
+        </button>
+        <ul class="dropdown-menu list-objects" aria-labelledby="dropdownMenuButton">
+        </ul>
+      </div>
+    </td>
+    <td>
+      <textarea class="form-control" id="topicNew" rows="3"></textarea>
+    </td>
+    <td>
+      <input type="number" class="form-control" name="gradeNew" min="1" max="5">
+    </td>
+  </tr>
+        </tbody>
+      </table>
+      <button type="button" class="btn btn-success" id="insertButton">Добавить</button>
+
+
+    <script script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/crud.js"></script>
+</body>
+</html>

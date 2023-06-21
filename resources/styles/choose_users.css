@@ -1,0 +1,49 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  body {
+    animation: fade-in 0.2s ease-out;
+  }
+.button-link {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.button-link a {
+    transition: background-color 0.15s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #065fd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.button-link a:hover{
+    background-color: #094aa0;
+    cursor: pointer;
+}
+a.button {
+display: inline-block;
+padding: 8px 16px;
+text-decoration: none;
+background-color: #007bff;
+color: white;
+border-radius: 4px;
+font-weight: bold;
+margin: 20px;
+}
+
+a.button:hover {
+background-color: #0069d9;
+}
+.container *{
+display: block;
+}
